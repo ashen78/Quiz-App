@@ -171,7 +171,7 @@ export const FormMain = () => {
             )}
             {answerLength && (
               <motion.p
-                style={{ color: "red" }}
+                style={{ color: "blue" }}
                 initial={{ y: -20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.3 }}

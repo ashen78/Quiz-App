@@ -28,7 +28,7 @@ export const Navbar = () => {
               to="/my-quizzes"
               className={({ isActive }) => (isActive ? "activenav" : "")}
             >
-              My Quizzes
+              My Quizes
             </NavLink>
           </li>
         </ul>
